@@ -1,0 +1,13 @@
+{% load cms_tags sekizai_tags %}
+<html>
+ <head>
+  {% render_block "css" %}
+ </head>
+ <body>
+  {% cms_toolbar %}
+  <div style="padding-top: 150px; width: 500px;">
+   {% placeholder base_content %}
+  </div>
+  {% render_block "js" %}
+ </body>
+</html>
