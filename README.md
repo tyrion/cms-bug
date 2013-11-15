@@ -10,4 +10,4 @@ cms-bug
     ./manage.py runserver
 
 goto /en/admin and add a new page
-then try to add the video plugin to the placeholder
+then try to add the "Bug" plugin to the placeholder
