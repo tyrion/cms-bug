@@ -3,7 +3,6 @@ Pillow==2.0.0
 South==0.8.3
 argparse==1.2.1
 cmsplugin-filer==0.9.5
-distribute==0.6.24
 django-classy-tags==0.4
 -e git+https://github.com/divio/django-cms.git@fab3c58d018d0144419d1f76516a7ec1ef1a2580#egg=django_cms-dev
 django-filer==0.9.4

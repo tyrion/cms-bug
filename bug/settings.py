@@ -58,6 +58,7 @@ INSTALLED_APPS = (
     'cms.plugins.video',
 
     'plug',
+    'app',
 )
 
 MIDDLEWARE_CLASSES = (
