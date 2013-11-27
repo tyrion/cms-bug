@@ -133,3 +133,7 @@ STATICFILES_DIRS = (
 
 SITE_ID = 1
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+
+FIXTURE_DIRS = (
+    os.path.join(BASE_DIR, 'fixtures'),
+)
